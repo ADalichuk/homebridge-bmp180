@@ -11,7 +11,7 @@
 
 var Service, Characteristic, FakeGatoHistoryService;
 var exec = require('child_process').execFile;
-var cputemp, dhtExec;
+var bmp180Exec;
 var debug = require('debug')('BMP180');
 var logger = require("mcuiot-logger").logger;
 const moment = require('moment');
